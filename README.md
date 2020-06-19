@@ -1,4 +1,49 @@
-# Capstone_Project
+# Airbnb Price Prediction 
 
-This project is a work in progress with an end date of June 26th. It will attempt to predict prices of Airbnb rental units using ML from this dataset from Kaggle: 
-https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data
+### Introduction 
+
+This project uses exploratory data analysis techiques to understand Airbnb data in NYC. I then use a variety of machine learning models to predict rental prices based on characteristics such as location, size, and description.
+
+### Data 
+
+The csv file used for the analysis can be found in the data folder in this repository.
+
+The data came from Kaggle. Please see [here](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)
+
+### Notebooks 
+
+This repository contains two notebooks: "NYC Airbnb Prediction- Low Prices" and "NYC Airbnb Prediction- All Prices". The data cleaning, EDA, and modelling steps are largely the same in both; however, the Low Price notebook only includes listings in the dataset below $250, effectively dropping the top 10% of the target. 
+
+### Libraries
+
+- numpy
+- pandas
+- sklearn
+- keras
+- matplotlib
+- seaborn
+- plotly
+- scipy
+- statsmodels
+- wordcloud
+
+
+
+### Modelling
+
+This project uses a variety of modelling techniques including:<br>
+
+- Linear Regression
+- Lasso Regression
+- Logistic Regression 
+    - on count vectorized "name" column
+- Ridge Regression 
+- Decision Tree Regressor
+- Random Forest Regressor
+- KNN Regressor
+- Neural Network
+
+
+
+### Results 
+
