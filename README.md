@@ -36,7 +36,7 @@ This project uses a variety of modelling techniques including:<br>
 - Linear Regression
 - Lasso Regression
 - Logistic Regression 
-    - on count vectorized "name" column
+    - on count vectorized "name" column to understand which words are most predictive of price
 - Ridge Regression 
 - Decision Tree Regressor
 - Random Forest Regressor
