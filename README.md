@@ -8,7 +8,7 @@ This project uses exploratory data analysis techiques to understand Airbnb data 
 
 The csv file used for the analysis can be found in the "data" folder in this repository.
 
-The data came from Kaggle. Please see [here](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)
+The data comes from Kaggle. Please see [here](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)
 
 ### Notebooks 
 
