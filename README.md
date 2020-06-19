@@ -6,7 +6,7 @@ This project uses exploratory data analysis techiques to understand Airbnb data 
 
 ### Data 
 
-The csv file used for the analysis can be found in the data folder in this repository.
+The csv file used for the analysis can be found in the "data" folder in this repository.
 
 The data came from Kaggle. Please see [here](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)
 
@@ -40,10 +40,13 @@ This project uses a variety of modelling techniques including:<br>
 - Ridge Regression 
 - Decision Tree Regressor
 - Random Forest Regressor
+-Gradient Boosting Regressor
 - KNN Regressor
 - Neural Network
 
 
 
 ### Results 
+Due to the high skew in the price distribution, the models performed significantly better on the low price data than on the entire dataset. The best model in the low price data results in an RMSE of 32, while the best performing model for the entire dataset results in an RMSE of ____________. 
 
+The Random Forest Regressor performs the best on the low prices data. 
