@@ -15,6 +15,8 @@ The data comes from Kaggle. Please see [here](https://www.kaggle.com/dgomonov/ne
 
 This repository contains two notebooks: "NYC Airbnb Prediction- Low Prices" and "NYC Airbnb Prediction- Whole Price Range". The data cleaning, EDA, and modelling steps are largely the same in both; however, the Low Price notebook only includes listings in the dataset below $250, effectively dropping the top 10% of the target. 
 
+There is also a directory called "models" which contains the pkl files for the KNN regressor models, as running these models takes a long time. By cloning the repository, users will not have to re-run the models on their own machines.
+
 ### Libraries
 
 - numpy
