@@ -55,7 +55,7 @@ Due to the high skew in the price distribution, the models performed significant
 The Random Forest Regressor performs the best on the low prices data. 
 
 ### Future Steps
-The main area this project falls short in is accuracy on high price data. The main features that are missing are square footage, number of bedrooms, and ammenities. Based on some quick research, a lot of the higher priced units are quite large, have many beds available, and many ammenities. 
+The main area this project falls short in is accuracy on high price data. The main features that are missing are square footage, number of bedrooms, and amenities. Based on some quick research, a lot of the higher priced units are quite large, have many beds available, and many amenities. 
 
 It would be interesting to see if photo data could contribute to the accuracy, since a lot of the listings that are a few thousand dollars a night tend to have extremely nice interior design. The dataset used for modelling in this project might not be capturing the general "niceness" of an apartment to the same degree that photo data would be able to. 
 
