@@ -50,7 +50,7 @@ This project uses a variety of modelling techniques including:<br>
 
 
 ### Results 
-Due to the high skew in the price distribution, the models performed significantly better on the low price data than on the entire dataset. The best model in the low price data results in an RMSE of 32, while the best performing model for the entire dataset results in an RMSE of ____________. 
+Due to the high skew in the price distribution, the models performed significantly better on the low price data than on the entire dataset. The best model in the low price data results in an RMSE of 32, while the best performing model for the entire dataset results in an RMSE of 234. 
 
 The Random Forest Regressor performs the best on the low prices data. 
 
